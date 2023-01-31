@@ -5,5 +5,10 @@ let sum = inch / 12 ;
 return sum ;
 
 }
-const result = inchToFeet(24);
-console.log(result);
+const num1 = 24;
+const result1 = inchToFeet(num1);
+console.log(result1);
+
+const num2 = 144;
+const result2 = inchToFeet(num2);
+console.log(result2);
