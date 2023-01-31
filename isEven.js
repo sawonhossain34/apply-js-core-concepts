@@ -2,12 +2,11 @@
 function isEvenNumber(number){
     const remainder = number % 2;
     if(remainder === 0){
-        console.log('is even number');
+        return true;
     }
     else{
-        console.log('is odd number');
+        return false;
     }
-    return remainder;
     // console.log(remainder);
 }
 const evenNumber = isEvenNumber(121);
