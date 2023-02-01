@@ -2,6 +2,7 @@
 
 function inchToFeet(inch){
 let sum = inch / 12 ;
+
 return sum ;
 
 }
